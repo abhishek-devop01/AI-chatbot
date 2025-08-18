@@ -39,7 +39,6 @@ io.on("connection", (socket) => {
         },
       ],
     });
-    console.log(response);
     socket.emit("ai-message-response", response); 
   });
 });
