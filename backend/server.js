@@ -5,7 +5,7 @@ const generateResponse = require("./src/services/ai.service");
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://ai-chatbot-frontend-9zem.onrender.com",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
